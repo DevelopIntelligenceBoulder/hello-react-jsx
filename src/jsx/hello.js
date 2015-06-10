@@ -10,11 +10,11 @@
 		/**
 		 *  React component lifecycle callback.
 		 *    - Executes exactly once during the lifecycle of the
-		 *      compoenet and sets the initial state of the component
+		 *      component and sets the initial state of the component
 		 *    - Executes before the component has been drawn on screen
 		 **/
 		getInitialState: function() {
-			//Initially default this data to empty
+			//Return an object literal containing component state
 			return {
 				place: 'World'
 			};
@@ -24,7 +24,7 @@
 		 *  Utilizes the properties and state placed into it.
 		 */
 		render: function() {
-			//Rendered HTML
+			//Rendered HTML with the component state
 			return (
 				<h1>Hello {this.state.place}</h1>
 			)
