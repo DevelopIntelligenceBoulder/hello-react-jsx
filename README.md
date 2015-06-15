@@ -27,3 +27,10 @@ The Hello Component is defined. The component state is initialized and utilized 
 
 ### Within the jsx/bootstrap.js
 Bootstrapping/Rendering the top-level React component into the DOM. Contains JSX for simplification.
+
+## Instructions
+1. Install [NodeJS](https://nodejs.org/)
+2. Run `npm start` to get the application running on the web server
+    * Packages needed for this application will be installed (i.e. React & Express)
+    * The Node/Express Web Server will start
+3. Go to `http://localhost:8080/src/` in your web browser
