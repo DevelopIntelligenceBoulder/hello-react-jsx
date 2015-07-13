@@ -12,7 +12,7 @@ The application namespace is created. It is a simple JavaScript namespace that t
 ### Within the jsx & component folders
 The expectation is the JavaScript files, all containing JSX, located in the "jsx" folder will be compiled into plain old JavaScript and placed into the "component" folder. These compiled JavaScript files will be consumed by React to create React components for the application. 
 
-The compilation can be done via the JSX compiler:
+### The compilation can be done via the JSX compiler:
 1. Download and install the JSX compiler via the `react-tools`
     * npm install -g react-tools
     * Allows the compiler to be used via `jsx` within a command-line
