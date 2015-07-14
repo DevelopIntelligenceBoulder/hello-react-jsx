@@ -20,8 +20,9 @@
 			};
 		},
 		/**
-		 * React life-cycle method used to return this component.
+		 * React internal method used to render this component.
 		 *  Utilizes the properties and state placed into it.
+		 *  Only method needed to create a React component.
 		 */
 		render: function() {
 			//Rendered HTML with the component state
