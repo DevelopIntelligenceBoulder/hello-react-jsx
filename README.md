@@ -1,5 +1,5 @@
 # hello-react-jsx
-A simple example of Hello World in (React)[https://facebook.github.io/react/] utilizing (JSX)[https://jsx.github.io/].
+A simple example of Hello World in [React](https://facebook.github.io/react/) utilizing [JSX](https://jsx.github.io/).
 
 What is JSX? JSX is a language that brings XML syntax into JavaScript, think of it as a JavaScript extension. It allows developers to write XML directly within their JavaScript. JSX makes it easy to define HTML templates and their corresponding model properties directly within a React Components JavaScript definition.
 
